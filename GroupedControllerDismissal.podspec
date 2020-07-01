@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name                    = "GroupedControllerDismissal"
   s.module_name             = "GroupedControllerDismissal"
-  s.version                 = "1.0.0"
+  s.version                 = "1.0.1"
   s.summary                 = "Helper code to dismiss stack of modal controllers (in fullscreen mode) as single group"
 
   s.homepage                = "https://github.com/ladeiko/GroupedControllerDismissal"
