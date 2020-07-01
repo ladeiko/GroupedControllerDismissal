@@ -44,7 +44,7 @@ extension UIViewController {
 
     @objc func GroupedControllerDismissal_dismiss(animated flag: Bool, completion: (() -> Void)? = nil) {
 
-        if UIViewController.dismissModalAsGrouped {
+        if UIViewController.dismissModalAsGrouped || self.dismissModalAsGrouped {
             addSnap()
         }
 
